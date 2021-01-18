@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0096e0",
+        "marker-size": "medium",
+        "marker-symbol": "cafe"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.234731674194336,
+          30.047030420027486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2a49a7",
+        "marker-size": "large",
+        "marker-symbol": "bus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.20104312896728,
+          30.036256869979837
+        ]
+      }
+    }
+  ]
+}
