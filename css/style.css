@@ -1,0 +1,41 @@
+html,
+body {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+p {
+    font-size: 18pt;
+    display: inline;
+}
+
+p span {
+    color: #DD2D1A;
+    font-weight: bold;
+}
+
+.motasl_mokup {
+    width: 200px;
+}
+
+.wrapper {
+    width: 600px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        height: 300px;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        margin-top: -150px;
+        margin-left: -10px;
+    }
+}
